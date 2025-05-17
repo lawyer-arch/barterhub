@@ -1,0 +1,16 @@
+[project]
+name = "barterhub"
+version = "0.1.0"
+description = "Сервис по обмену вещами между людьми"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django",
+    "djangorestframework",
+    "psycopg2-binary",
+]
+
+[tool.dependencies]
+django = "^4.2"
+djangorestframework = "^3.14"
+psycopg2-binary = "^2.9"
